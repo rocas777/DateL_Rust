@@ -59,7 +59,9 @@ It uses a unix time schema, with the initial date being 01-01-1970 00:00
 
 ### Dependencies
 The class depends o the following libraries:
-* chrono 
+* chrono  
 add lines bellow to Cargo.toml:
+```toml
 [dependencies]
 chrono = "0.4"
+```
