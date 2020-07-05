@@ -1,0 +1,13 @@
+[package]
+name = "date_l_rust"
+version = "0.1.0"
+authors = ["rocas777 <lmiguelapinto@gmail.com>"]
+edition = "2018"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+chrono = "0.4"
+
+[profile.release]
+opt-level = 3
